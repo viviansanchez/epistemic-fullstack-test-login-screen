@@ -44,6 +44,15 @@ Requisitos do projeto:
 
 - Implemente alertas correspondentes às situações de erros e sucessos para as três funcionalidades de verificação de erros
 
+### Considerações
+
+Como não há um backend para esta aplicação, para satisfazer o primeiro requerimento (verificar, no momento que o botão “Entrar” for pressionado, se a senha e e-mail inseridos nos respectivos campos estão corretos) optei por utilizar uma validação com o Zod onde apenas as seguintes credenciais são consideradas corretas:
+
+- Email: correctemail@email.com
+- Senha: correctpassword
+
+Caso deseje testar a aplicação, utilize essas credenciais como corretas, e quaisquer outras como incorretas.
+
 ## ⚙️ Instalação
 
 ⚠️ Para rodar o projeto, é necessário que o Node.js esteja instalado na sua máquina. Caso não tenha, basta clicar [neste link](https://nodejs.org/en) e seguir os passos para instalação.
