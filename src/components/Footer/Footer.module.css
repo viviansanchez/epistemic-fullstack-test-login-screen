@@ -1,0 +1,6 @@
+.footer {
+  align-self: center;
+  a {
+    color: var(--white);
+  }
+}
