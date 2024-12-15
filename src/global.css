@@ -1,0 +1,41 @@
+:root {
+  --white: #ffffff;
+  --gray-100: #c8b5d3;
+  --gray-200: #d8d8d8;
+  --purple-300: #a846ac;
+  --purple-500: #7243a9;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--purple-300);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(var(--purple-500), var(--purple-300));
+  min-height: 100vh;
+}
+
+body,
+input,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1 rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--purple-500);
+}
+
+a:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 0;
+}
